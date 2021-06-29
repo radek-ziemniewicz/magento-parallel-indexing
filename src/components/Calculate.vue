@@ -28,7 +28,7 @@
     <div class="input">
       <label for="websites">Websites</label>
       <input id="websites" name="websites" type="number" min="1" v-model="websites"/>
-      <p class="info font-mono">$ bin/magento store:website:list</p>
+      <p class="info font-mono">SELECT count(*)-1 FROM store_website;</p>
     </div>
     <div class="input">
       <label for="customerGroups">Customer groups</label>
