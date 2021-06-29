@@ -140,7 +140,7 @@ export default {
     @apply block border border-black rounded px-3 py-2 mx-2;
   }
   div.input p.info {
-    @apply block bg-blue-100 py-2 px-4 mx-2 mt-2 rounded border border-blue-300 md:mt-0 overflow-x-scroll whitespace-nowrap;
+    @apply block bg-blue-100 py-2 px-4 mx-2 mt-2 rounded border border-blue-300 md:mt-0 overflow-x-scroll md:overflow-x-hidden whitespace-nowrap;
   }
   div.docs {
     @apply border-black rounded border px-5 py-4 m-2 mb-10 bg-gray-100 border-dashed;
